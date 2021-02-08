@@ -1329,7 +1329,7 @@ Computing Machinery]
   Copyright held by the owner/author(s). Publication rights licensed to
   Association for Computing Machinery.
   \or % rightsretained
-  Copyright held by the owner/author(s).
+  Copyright for this paper by its author(s). Published in the Workshop Proceedings of the EDBT/ICDT 2021 Joint Conference (March 23–26, 2021, Nicosia, Cyprus) on CEUR-WS.org. Use permitted under Creative Commons License Attribution 4.0 International (CC BY 4.0)
   \or % usgov
   \or % usgovmixed
   Association for Computing Machinery.
@@ -1508,19 +1508,19 @@ Computing Machinery]
   \fi
   \footnotetextcopyrightpermission{%
     \if@ACM@edbt
-      \copyright\ \@copyrightyear\ \@copyrightowner
-      Published in  
+        \copyright\ \@copyrightyear\ \@copyrightowner
+     % Published in  
       \if@ACM@journal
 	\emph{\@journalName}%
       \else
-	Proceedings of the \acmConference@name, \acmConference@date%
+%	Proceedings of the \acmConference@name, \acmConference@date%
       \fi
       \ifx\@acmISBN\@empty
-      :
+      %
       \else
-	, ISBN \@acmISBN \ on OpenProceedings.org.
+%	, ISBN \@acmISBN \ on OpenProceedings.org.
       \fi\\
-      Distribution of this paper is permitted under the terms of the Creative Commons license CC-by-nc-nd 4.0. 
+      %Distribution of this paper is permitted under the terms of the Creative Commons license CC-by-nc-nd 4.0. 
     \else
       \if@ACM@authordraft
 	  \raisebox{-2ex}[\z@][\z@]{\makebox[0pt][l]{\large\bfseries
@@ -2481,3 +2481,4 @@ Computing Machinery]
 \endinput
 %%
 %% End of file `acmart.cls'.
+
